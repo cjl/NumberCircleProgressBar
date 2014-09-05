@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.cjl.androidtest"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+        android:id="@+id/numbercircleprogress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        custom:max="100"
+        custom:progress="0"
+        custom:progress_circle_radius="50dp"
+        custom:progress_fill_mode="rotate"
+        custom:progress_reached_color="#3498DB"
+        custom:progress_text_color="@android:color/black"
+        custom:progress_text_size="15sp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_color="#CCCCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Passing_Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Beauty_Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Warning_Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Relax_Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
+            style="@style/NumberCircleProgressBar_Grace_Yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
