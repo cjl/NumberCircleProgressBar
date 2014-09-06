@@ -7,8 +7,14 @@ The NumberCircleProgressBar is a bar, slim and sexy.  I decided to do this after
 
 ###Illustration
 ---
+![NumberCircleProgressBar1](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rotate_1.gif)
+![NumberCircleProgressBar2](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rotate_2.png)
+![NumberCircleProgressBar3](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rising_water_1.gif)
+![NumberCircleProgressBar4](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rising_water_2.png)
 
 ###Attributes
+![NumberCircleProgressBar5](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/zoning.png)
+
 There are several attributes you can set:
 
 **The Circle**
@@ -107,4 +113,4 @@ public void setTheNumberProgressBar() {
 	}
 ```
 
-How to accomplish this view,you can look my Blog
+How to accomplish this view,you can look my [Blog](http://blog.csdn.net/cjllife/article/details/39102243)
