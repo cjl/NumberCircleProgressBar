@@ -399,9 +399,9 @@ public class NumberCircleProgressBar extends View {
 	 * calculate the center of circle
 	 */
 	private void calculateCircleCenter() {
-		centerX = (getWidth() - getPaddingLeft() - getPaddingRight()) / 2.0f
+		centerX = (getMeasuredWidth() - getPaddingLeft() - getPaddingRight()) / 2.0f
 				+ getPaddingLeft();
-		centerY = (getHeight() - getPaddingTop() - getPaddingBottom()) / 2.0f
+		centerY = (getMeasuredHeight() - getPaddingTop() - getPaddingBottom()) / 2.0f
 				+ getPaddingTop();
 	}
 
@@ -422,7 +422,7 @@ public class NumberCircleProgressBar extends View {
 		mCurrentDrawText = String.format("%d", getProgress() * 100 / getMax());
 		mCurrentDrawText = mPrefix + mCurrentDrawText + mSuffix;
 		Rect rect = new Rect();
-		// 返回包围整个字符串的最小的一个Rect区域
+		// 杩斿洖鍖呭洿鏁翠釜瀛楃涓茬殑鏈�灏忕殑涓�涓猂ect鍖哄煙
 		mTextPaint.getTextBounds(mCurrentDrawText, 0, 1, rect);
 		mDrawTextWidth = rect.width();
 		mDrawTextHeight = rect.height();
