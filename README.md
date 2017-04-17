@@ -5,14 +5,14 @@ The NumberCircleProgressBar is a bar, slim and sexy.  I decided to do this after
 
 ---
 
-###Illustration
+### Illustration
 ---
 ![NumberCircleProgressBar1](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rotate_1.gif)
 ![NumberCircleProgressBar2](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rotate_2.png)
 ![NumberCircleProgressBar3](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rising_water_1.gif)
 ![NumberCircleProgressBar4](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/rising_water_2.png)
 
-###Attributes
+### Attributes
 ![NumberCircleProgressBar5](https://github.com/cjl/NumberCircleProgressBar/blob/master/illustration/zoning.png)
 
 There are several attributes you can set:
@@ -38,11 +38,11 @@ The **bar**:
 * current progress
 
 
-###Usage
+### Usage
 ----
 This widget is small,so I didn't build it as a library.You just copy the src/NumberCircleProgressBar.java and res/values/attrs.xml then:
 
-####In the layout file,you can write as this:
+#### In the layout file,you can write as this:
 
 ```xml
 <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
@@ -62,7 +62,7 @@ This widget is small,so I didn't build it as a library.You just copy the src/Num
         custom:progress_unreached_color="#CCCCCC" />
 ```
 
-####You can also define the NumberCircleProgressBar's style like this:
+#### You can also define the NumberCircleProgressBar's style like this:
 
 ```xml
 <style name="NumberCircleProgressBar_Default">
@@ -78,7 +78,7 @@ This widget is small,so I didn't build it as a library.You just copy the src/Num
         <item name="progress_fill_mode">rotate</item>
 </style>
 ```
-####When you use the style,just do this:
+#### When you use the style,just do this:
 ```xml
 <com.cjl.numbercircleprogressbar.NumberCircleProgressBar
             style="@style/NumberCircleProgressBar_Default"
@@ -87,7 +87,7 @@ This widget is small,so I didn't build it as a library.You just copy the src/Num
             android:padding="10dp" />
 ```
 
-####In my sample demo ,you can use NumberCircleBar in your Activity:
+#### In my sample demo ,you can use NumberCircleBar in your Activity:
 
 ```java
 public void setTheNumberProgressBar() {
